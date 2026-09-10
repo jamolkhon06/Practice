@@ -27,5 +27,4 @@ git pull origin main
 - Class
 - Class deep dive
 - Operation & Conditions
-- Loops
-- ...
+- Loops;
