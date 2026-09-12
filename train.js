@@ -12,7 +12,7 @@ function findDoublers(string) {
     return false
 }
 const result = findDoublers("hello");
-console.log(result)
+console.log(result);
 
 // E-Task
 // Shunday function tuzing, u bitta string argumentni qabul qilib osha stringni teskari qilib return qilsin. MASALAN: getReverse("hello") return qilsin "olleh"
