@@ -36,10 +36,12 @@ try:
     a = car_dic.speed
     result = car_dic["origin"]
     print(result)
-except KeyError as err:
-    print("No origin state property found:", err)
-except AttributeError as err:
-    print("No speed state property found:", err)
+# except KeyError as err:
+#     print("No origin state property found:", err)
+# except AttributeError as err:
+#     print("No speed state property found:", err)
+except Exception as err:
+    print("General error:", err)
 else:
     print("Executed successfully without errors")
 finally:
