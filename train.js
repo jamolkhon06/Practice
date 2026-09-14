@@ -12,6 +12,8 @@ function getHighestIndex(arr) {
     });
     return maxIndex
 }
+const result = getHighestIndex([5, 21, 12, 31, 8])
+console.log(result)
 
 // F-Task
 // Yagona string argumentga ega findDoublers nomli function tuzing. Agar stringda bittadan ortiq bir xil harflar ishtirok etgan bo'lsa true yokida false natija qaytarsin. MASALAN: findDoublers("hello"); natija true qaytadi. Sababi ikki marotaba takrorlangan 'll' harfi mavjud!
