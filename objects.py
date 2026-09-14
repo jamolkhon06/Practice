@@ -27,3 +27,20 @@ print(result1)
 
 result2 = ceil(98.7)
 print(result2)
+
+print("_____Error handling system_____")
+car_dic = dict(name="Toyota", year=2026, electric=True)
+
+try:
+    print("Passed here")
+    a = car_dic.speed
+    result = car_dic["origin"]
+    print(result)
+except KeyError as err:
+    print("No origin state property found:", err)
+except AttributeError as err:
+    print("No speed state property found:", err)
+else:
+    print("Executed successfully without errors")
+finally:
+    print("Final closing logic")
