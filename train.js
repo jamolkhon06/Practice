@@ -1,7 +1,23 @@
+// K-Task
+// Shunday function yozing, u string qabul qilsin va string ichidagi unli harflar sonini qaytarsin.MASALAN: countVowels("string") return 1;
+function countVowels(str) {
+    let lowStr = str.toLowerCase()
+    let count = 0;
+    for(let char of lowStr) {
+        if(char === "a" || char === "o" || char === "e" || char === "i" || char === "u" || char === "y") {
+            count++
+        }
+    }
+    return count
+}
+const result = countVowels("agentic")
+console.log(result)
+
+
 // G-Task
 // Yagona parametrga ega function tuzing. Va bu function parametr orqalik integer ma'lumot turlariga ega bo'lgan bir arrayni qabul qilsin. Ushbu function bizga arrayning tarkibidagi birinchi eng katta qiymatning indeksini qaytarsin. MASALAN: getHighestIndex([5, 21, 12, 21 ,8]); return qiladi 1 sonini Yuqoridagi misolda, birinchi indeksda 21 joylashgan. Va bu 21 soni arrayning tarkibidagi birinchi eng katta son hisobladi va bizga uning indeksi 1 qaytadi.
 
-function getHighestIndex(arr) {
+/* function getHighestIndex(arr) {
     let maxNum = arr[0];
     let maxIndex = 0;
     arr.forEach((element, index) => {
@@ -13,7 +29,7 @@ function getHighestIndex(arr) {
     return maxIndex
 }
 const result = getHighestIndex([5, 21, 12, 31, 8])
-console.log(result)
+console.log(result) */
 
 // F-Task
 // Yagona string argumentga ega findDoublers nomli function tuzing. Agar stringda bittadan ortiq bir xil harflar ishtirok etgan bo'lsa true yokida false natija qaytarsin. MASALAN: findDoublers("hello"); natija true qaytadi. Sababi ikki marotaba takrorlangan 'll' harfi mavjud!
