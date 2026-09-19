@@ -4,8 +4,8 @@ function countVowels(str) {
     let lowStr = str.toLowerCase()
     let count = 0;
     for(let char of lowStr) {
-        if(char === "a" || char === "o" || char === "e" || char === "i" || char === "u" || char === "y") {
-            count++
+        if(char === "a" || char === "o" || char === "e" || char === "i" || char === "u") {
+            count++;
         }
     }
     return count
