@@ -27,4 +27,9 @@ git pull origin main
 - Class
 - Class deep dive
 - Operation & Conditions
-- Loops;
+- Loops
+- Tuple
+- List
+- Array
+- Comprehension
+- Debugging
