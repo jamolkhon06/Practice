@@ -67,3 +67,13 @@ def greeting(*args, **kwargs):
 
 
 greeting("Hi", True, 10, name="John", age=22)
+
+
+print("_____zip_____")
+tuple1 = (1, 2, 3, 4)
+tuple2 = ('a', 'b', 'c')
+
+zipped = zip(tuple1, tuple2)
+print(zipped)
+result = list(zipped)
+print(result)

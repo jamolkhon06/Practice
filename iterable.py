@@ -1,5 +1,5 @@
 print("_____Iterable objects & RANGE_____")
-# Iterate objects > string, dictionary, tuple, list, range, map, filter
+# Iterate objects > string, dictionary, tuple, list, zip, range, map, filter
 
 range_obj = range(3)
 print(range_obj)
