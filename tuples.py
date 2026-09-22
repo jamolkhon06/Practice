@@ -59,3 +59,11 @@ def introduce(**kwargs):
 
 
 introduce(name="Joseph", age=20)
+
+
+def greeting(*args, **kwargs):
+    print("*args >", args)
+    print("**kwargs >", kwargs)
+
+
+greeting("Hi", True, 10, name="John", age=22)
