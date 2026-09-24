@@ -77,3 +77,22 @@ print(numbers)
 nums = [2, 20, 12, 100]
 new_nums = sorted(nums)
 print(new_nums)
+
+
+print("_____Lambda functions_____")
+# lambda is small anonymous function!
+def calculate(x, y): return x * y
+
+
+result3 = calculate(3, 5)
+print(result3)
+
+peoples = [
+    ("Robert", 20),
+    ("Steve", 19),
+    ("Joseph", 25),
+    ("Micheal", 30)
+]
+# sort by age via lambda
+peoples.sort(key=lambda person: person[1])
+print(peoples)
