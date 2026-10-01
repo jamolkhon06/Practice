@@ -41,7 +41,21 @@ print("_____Package Manager & External Package_____")
 '''
 # External package: https://pypi.org/
 
-with Image.open("material/image.png") as img_obj:
-    resized_img = img_obj.resize((200, 200))
-    resized_img.show()
-    resized_img.save("material/sample.png")
+# with Image.open("material/image.png") as img_obj:
+#     resized_img = img_obj.resize((200, 200))
+#     resized_img.show()
+#     resized_img.save("material/sample.png")
+
+
+print("_____Debugging_____")
+
+
+def get_summary(*args):
+    total_amount = ()
+    for a in args:
+        total_amount += a
+        return total_amount  # find the bug via debugging
+
+
+result = get_summary(1, 2, 3, 4, 5)
+print(result)
